@@ -1,0 +1,966 @@
+﻿<!DOCTYPE html><html class="skrollr skrollr-desktop"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+            
+<title>SAMVID 2017 | Asia's largest Science and Technology festival  | </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">  
+    <meta http-equiv="Cache-control" content="public">  
+      <meta name="description" content="SAMVID'17: SSTC presents India&#39;s Largest Science and Technology Festival">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="cache-control" content="public">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/main.css">
+        <link href="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/css" rel="stylesheet">
+        <script async="" src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/analytics.js.download"></script><script src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/jquery.min.js.download"></script>
+        <link href="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/ticker-style.css" rel="stylesheet" type="text/css">
+        
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-81222017-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<style type="text/css">
+#js-news-div{
+color: white;
+position: fixed;
+top: 12.5%;
+width: 85%;
+overflow-x: hidden;
+font-family: 'Aldrich', sans-serif;
+z-index: 100;
+}
+
+canvas[resize] {
+    width: 100%;
+    height: 100%;
+}
+
+.mobile{
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+button{
+    background: rgb(81, 85, 93);
+}
+a:hover,a:active , a:focus{
+  outline:0; 
+}
+a::-moz-focus-inner { 
+  border: 0; 
+}
+
+</style>
+<style type="text/css">
+body {
+background:#0b1d2a;
+}
+
+.arrows {
+width: 60px;
+height: 72px;
+position: absolute;
+left: 50%;
+    margin-left: -30px;
+bottom: 20px;
+}
+
+.arrows path {
+stroke: #FFFFFF;
+fill: transparent;
+    stroke-width: 1px;
+animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite;
+}
+
+@keyframes  arrow
+{
+    0% {opacity:0}
+    40% {opacity:1}
+    80% {opacity:0}
+    100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+    0% {opacity:0}
+    40% {opacity:1}
+    80% {opacity:0}
+    100% {opacity:0}
+}
+
+.arrows path.a1 {
+    animation-delay:-1s;
+    -webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+    animation-delay:-0.5s;
+    -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {
+    animation-delay:0s;
+    -webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+
+canvas[resize] {
+width: 100%;
+height: 100%;
+}
+canvas{
+position: fixed;
+    z-index: 3;
+}
+.schedule{
+    font-family: 'Aldrich', sans-serif;
+    color: white;
+    font-size: 15px;
+    border : 3px solid white;
+    padding: 5px;
+    position: fixed;
+    z-index: 5;
+    top : 22%;
+    left: 1.5%;
+
+}
+#loader{
+width: 100%;
+height: 100%;
+background:#f3f5f8;
+position: fixed;
+z-index: 1000;
+top: 0;
+left: 0;
+background-color: white;
+}
+#loader_image{
+/*width: 32%;*/
+position: fixed;
+top:50%;
+left: 50%;
+transform: translate(-50%,-50%);
+/*top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);*/
+}
+#loader_image img{
+	width:100%;
+}
+#mob_text{
+font-size: 20px;
+color: white;
+width:100%;
+box-sizing: border-box;
+padding: 20px;
+position: relative;
+text-align: center;
+top:63%;
+}
+@media(max-width: 450px){
+	#loader_image img{
+		width: 200%;
+	}
+	#loader_image{
+		transform: translate(-100%,-50%);
+	}
+}
+</style>
+
+
+    </head>
+    <body style="height: 15107.8px;">
+
+          <div id="loader" style="display: none;">
+        <div id="loader_image">
+        <img src="http://samvid.org.in/assets/images/samvid_logo_c.png">
+
+        </div>
+       <div id="mob_text">
+        </div>
+        </div>
+        <div class="mobile" style="display: none;">
+        <style type="text/css">
+
+
+p{
+  font-size: 15px;
+}
+  .btn1 {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  top: 30px;
+  left: 10px;
+  z-index: 78;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+@media (max-width: 750px){
+  .btn1{
+    top:10px;
+  }
+}
+.btn1 .icon-left {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  position: absolute;
+  height: 4px;
+  width: 15px;
+  top: 15px;
+  background-color: #fff;
+  left: 0px;
+}
+.btn1 .icon-left:before {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  position: absolute;
+  width: 15px;
+  height: 4px;
+  background-color: #fff;
+  content: "";
+  top: -10px;
+}
+.btn1 .icon-left:after {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  position: absolute;
+  width: 15px;
+  height: 4px;
+  background-color: #fff;
+  content: "";
+  top: 10px;
+}
+.btn1 .icon-left:hover {
+  cursor: pointer;
+}
+.btn1 .icon-right {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  position: absolute;
+  height: 4px;
+  width: 15px;
+  top: 15px;
+  background-color: #fff;
+  left: 15px;
+}
+.btn1 .icon-right:before {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  position: absolute;
+  width: 15px;
+  height: 4px;
+  background-color: #fff;
+  content: "";
+  top: -10px;
+}
+.btn1 .icon-right:after {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  position: absolute;
+  width: 15px;
+  height: 4px;
+  background-color: #fff;
+  content: "";
+  top: 10px;
+}
+.btn1.open .icon-left {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  background: transparent;
+}
+.btn1.open .icon-left:before {
+  -webkit-transform: rotateZ(45deg) scaleX(1.4) translate(2px, 2px);
+          transform: rotateZ(45deg) scaleX(1.4) translate(2px, 2px);
+}
+.btn1.open .icon-left:after {
+  -webkit-transform: rotateZ(-45deg) scaleX(1.4) translate(2px, -2px);
+          transform: rotateZ(-45deg) scaleX(1.4) translate(2px, -2px);
+}
+.btn1.open .icon-right {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  background: transparent;
+}
+.btn1.open .icon-right:before {
+  -webkit-transform: rotateZ(-45deg) scaleX(1.4) translate(-2px, 2px);
+          transform: rotateZ(-45deg) scaleX(1.4) translate(-2px, 2px);
+}
+.btn1.open .icon-right:after {
+  -webkit-transform: rotateZ(45deg) scaleX(1.4) translate(-2px, -2px);
+          transform: rotateZ(45deg) scaleX(1.4) translate(-2px, -2px);
+}
+.btn1:hover {
+  cursor: pointer;
+}
+.srt_menu{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top:0;
+  display: none;
+  left: 0;
+  background-color: rgba(18,12,31,0.9);;
+  z-index: 77;   
+}
+#srt_list{
+  color: white;
+  font-size: 20px;
+  top: 0;
+  height: 100%;
+  background-color: rgba(18,12,31,0.8);
+  padding-right: 0px;
+  overflow-x: hidden;
+}
+#srt_list ul{
+  list-style: none;
+  margin:0;
+  padding-left: 10px;
+  width:108%;
+  height:80%;
+
+}
+#srt_list li{
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left: 5px;
+  margin-right: 5px;
+  text-align: start;
+}
+#subdiv{
+  top: 0%;
+    background-color: rgba(18,12,31,0.8);
+  }
+#srt_list a{
+  text-decoration: none;
+  color: white;
+  font-family: "Aldrich",sans-serif;
+
+}
+a:hover,a:focus{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.srt_sublist{
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  font-family: "Aldrich",sans-serif;
+}
+.active{
+  display: block;
+}
+.srt_sublist li{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.srt_display{
+  display: block;
+}
+#list a:hover li{
+  box-shadow: 3px 3px 5px #fff;
+}
+.shadow{
+  box-shadow:10px 10px 3px rgba(18,12,12,1);
+  text-shadow: 2px 2px 4px #000000
+}
+.srt_scroll{
+  width: 105%;
+  height: 85%;
+  overflow-y: auto;
+  position: absolute;
+  top: 15%;
+  left: 0;
+
+}
+.col-xs-12{
+  width: 100%;
+}
+/*@media(min-width: 450px){
+.col-xs-12{
+    width: 75%;
+} */
+}
+.column3{
+width: 20%;
+    float: left;
+}
+.column2{
+width: 18%;
+    float: left;
+}
+.column9{
+width: 80%;
+    float: left;
+    height:100%;
+    
+}
+@media(max-width: 990px){
+    .column3{
+    width: 100%;
+        float: left;
+    }
+    .column2{
+    width: 100%;
+        float: left;
+    }
+    .column9{
+    width: 100%;
+        float: left;
+    }
+}
+
+
+
+</style>
+ <div class="menu btn1" data-menu="1">
+        <div class="icon-left"></div>
+        <div class="icon-right">
+        <h1>  <p><a href="http://www.samvid.org/cured">ROBO RACE</a></p>
+        </div>
+        </h1>
+ </div>
+ <div class="srt_menu">
+ <div class="srt_scroll">
+   <div id="srt_list" class="column3">
+        
+   </div>
+   <div id="subdiv" class="column9">
+         <div class="srt_sublist column2 column12" id="initiatives_list">
+        <h4>Initiatives</h4>
+         <p><a href="http://www.samvid.org/cured">CURED</a></p>
+         <p><a href="http://www.samvid.org/savethesouls">Save the Souls</a></p>
+         <p><a href="http://www.samvid.org/iampower">IAmPower</a></p>
+         <p><a href="http://www.samvid.org/initiatives">Make In India</a></p>
+         <p><a href="http://samvid.org/twmun">TWMUN</a></p>
+
+         </div>
+          <div class="srt_sublist column2">
+         <h4>Workshops</h4>
+         <p><a href="http://www.samvid.org/tuav" onclick="myFunction()">Tri-Copter UAV</a></p>
+         </div>
+          <div class="srt_sublist column2">
+         <h4>Workshops</h4>
+         <p><a href="http://www.samvid.org/webench" onclick="myFunction()">TI WEBENCH</a></p>
+         </div> 
+         <div class="srt_sublist column2">
+         <h4>Workshops</h4>
+         <p><a href="http://www.samvid.org/solarizer" onclick="myFunction()">Solarizer</a></p>
+         </div>   
+         <div class="srt_sublist column2">
+         <h4>Ideate</h4>
+         <p><a href="http://www.samvid.org/iot" onclick="myFunction()">Infinity of Things!</a></p>
+         </div>
+         <div class="srt_sublist column2">
+         <h4>TechnOrion</h4>
+         <p><a href="http://www.samvid.org/meshflare" onclick="myFunction()">Mesh Flare</a></p>
+        </div>
+         <div class="srt_sublist column2">
+         <h4>Tata Pioneer’s Makerthon</h4>
+         <p><a href="http://www.samvid.org/uavchallenge" onclick="myFunction()">Protean UAV Challenfge</a></p>
+         <p><a href="http://www.samvid.org/spraychallenge" onclick="myFunction()">Autonomous Spray Coverage Measurement</a></p>
+         </div> 
+         <div class="srt_sublist column2">
+           <h4>Xtreme Machines</h4>
+           <p><a href="http://www.samvid.org/fullthrottle">Fullthrottle</a></p>
+           <p><a href="http://www.samvid.org/submerge">Submerge</a></p>
+         </div> 
+          <div class="srt_sublist column2">
+           <h4>Aero Strike</h4>
+           <p><a href="http://www.samvid.org/skylark">Skylark</a></p>
+           <p><a href="http://www.samvid.org/boeing">Boeing Aeromodelling competition</a></p>
+         </div> 
+         <div class="srt_sublist column2">
+           <h4>SpecTechale</h4>
+           <p><a href="http://www.samvid.org/resemblance">Resemblance</a></p>
+           <p><a href="http://www.samvid.org/generex">Generex</a></p>
+           <br>
+         </div>
+         <div class="srt_sublist column2">
+           <h4>Tinkerer</h4>
+           <p><a href="http://www.samvid.org/energon">Energon</a></p>
+           <p><a href="http://www.samvid.org/competitions#imitationgame">Imitation Game</a></p>
+         </div>  
+         <div class="srt_sublist column2">
+           <h4>Architectonics</h4>
+           <p><a href="http://www.samvid.org/skyscraper">Skyscraper</a></p>
+           <p><a href="http://www.samvid.org/colonize">Colonize</a></p>
+         </div>
+         <div class="srt_sublist column2">
+         <h4>International Challenge</h4>
+         <p><a href="http://www.samvid.org/icc" onclick="myFunction()">International Coding Challenge</a></p>
+         <p><a href="http://www.samvid.org/irc" onclick="myFunction()">International Robotics Challenge</a></p>
+         <p><a href="http://www.samvid.org/robowars" onclick="myFunction()">Robowars</a></p>
+         <p><a href="http://www.samvid.org/scc" onclick="myFunction()">Indian Student Supercomputing Challenge</a></p>
+         </div>
+        
+   </div>
+ </div>
+ </div>
+ <script type="text/javascript">
+
+var nofilterVal= "none";
+
+   $('.menu').click (function(){
+  $(this).toggleClass('open');
+   $("#main") .toggleClass('blur');
+  /*$('.srt_menu').toggleClass('srt_display');*/
+  $('.srt_menu').toggle(500);
+});
+  $('.srt_menu').mouseover(function(){
+    $(window).keydown(function(event){
+                      
+      var x = event.which;
+      console.log('one step more');
+      if(x==27){
+        
+                      $(".subcompi").css("display","none");
+                      $("#main") .css('filter',nofilterVal)
+                      .css('webkitFilter',nofilterVal)
+                      .css('mozFilter',nofilterVal)
+                      .css('oFilter',nofilterVal)
+                      .css('msFilter',nofilterVal);
+                      $('.bottomDiv').hide();
+                      $('#closebut').hide();
+                      //$('#blank').hide();
+                      $("#main") .css("position","relative");
+                      $('#heading').css("display", "block");        $('.menu').removeClass('open');
+        $('.srt_menu').hide();
+      }
+    });
+  });
+   $('li').hover(function(){
+      /*$('#initiatives_list').toggle();*/
+      $(this).toggleClass('shadow');
+   })
+ </script>
+<script>
+function myFunction() {
+    location.reload();}
+    </script>
+
+
+        <div class="bg">
+        </div>
+        <div class="text">
+         <img src="./samvid 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/center.png" width="100%">
+        </div>
+         <div id="logo">
+        <a href="http://www.samvid.org/#home" data-menu-top="0" data-menu-duration="5"><img src="http://samvid.org.in/assets/images/samvid_logo_c.png" width="100%"></a>
+        </div>
+    <p style="font-size:2.3vw; text-align:center;"><b>samvid</b></p>
+
+        </div>
+        <div class="topbg">
+
+        </div>
+        <div class="topnav" style="display: block;">
+        <div class="topufo skrollable skrollable-between" data-0="transform: translate(0%,0%)" data-200p="transform: translate(60%,0)" data-250p="" data-450p="transform: translate(126%,0)" data-500p="" data-700p="transform: translate(194%,0)" data-750p="" data-950p="transform: translate(287%,0)" data-1000p="" data-1200p="transform:translate(519%,0)" data-1250p="" data-1450p="transform:translate(575%,0)" data-1500p="" data-1700p="transform:translate(656%,0)" data-1750p="" data-1950p="transform:translate(738%,0)" data-2000p="" data-2200p="transform:translate(820%,0)" style="transform: translate(24.992%, 0%);">
+        <img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/topufo.png" width="100%">
+        </div>
+        <div id="logo">
+        <img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/logo-new.png" width="100%">
+        </div>
+        <ul class="navlist" id="left">
+        
+        <li style="margin:0;"><a data-menu-top="950p" href="http://samvid.org.in/" data-menu-duration="5">main site</a></li>
+        </ul>
+        <ul class="navlist" id="right">
+
+        <li style="margin:0;"><a data-menu-top="950p" href="http://samvid.org.in/" data-menu-duration="5">main site</a></li>
+        </div>
+
+        </a><br><br>
+      
+                <div id="slides" style="display: block;">
+
+                 <div class="text skrollable skrollable-between" data-0="transform: translate(-48%,-48%) scale(1,1);" data-80p="" data-100p="transform:  translate(-48%,-48%) scale(0.5,0.5);" data-120p="transform: translate(-48%,-48%) scale(0.0,0.0);" style="transform: translate(-48%, -48%) scale(0.917335, 0.917335);">
+                <img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/center.png" width="100%">
+                </div>
+               
+                    <div id="slide-1" class="slide skrollable skrollable-between" data-0="transform: translate(0%,-10%);" data-50p="transform: translate(0%,-6%);" data-80p="" data-100p="transform: translate(-12.25%,-3%)" data-120p="transform: translate(-25%,0%)" data-140p="transform: translate(-37.25%,-3%)" data-160p="transform: translate(-48%,-6%)" data-180p="" data-200p="transform: translate(-48%,-10%)" data-240p="" data-250p="transform: translate(0%,-10%);" data-300p="transform: translate(0%,-6%);" data-330p="" data-350p="transform: translate(-12.25%,-3%)" data-370p="transform: translate(-25%,0%)" data-390p="transform: translate(-37.25%,-3%)" data-410p="transform: translate(-48%,-6%)" data-430p="" data-450p="transform: translate(-48%,-10%)" data-490p="" data-500p="transform: translate(0%,-10%);" data-550p="transform: translate(0%,-6%);" data-580p="" data-600p="transform: translate(-12.25%,-3%)" data-620p="transform: translate(-25%,0%)" data-640p="transform: translate(-37.25%,-3%)" data-660p="transform: translate(-48%,-6%)" data-680p="" data-700p="transform: translate(-48%,-10%)" data-740p="" data-750p="transform: translate(0%,-10%)" data-800p="transform: translate(0%,-6%);" data-830p="" data-850p="transform: translate(-12.25%,-3%)" data-870p="transform: translate(-25%,0%)" data-890p="transform: translate(-37.25%,-3%)" data-910p="transform: translate(-48%,-6%)" data-930p="" data-950p="transform: translate(-48%,-10%)" data-990p="" data-1000p="transform: translate(0%,-10%)" data-1050p="transform: translate(0%,-6%);" data-1080p="" data-1100p="transform: translate(-12.25%,-3%)" data-1120p="transform: translate(-25%,0%)" data-1140p="transform: translate(-37.25%,-3%)" data-1160p="transform: translate(-48%,-6%)" data-1180p="" data-1200p="transform: translate(-48%,-10%)" data-1240p="" data-1250p="transform: translate(0%,-10%)" data-1300p="transform: translate(0%,-6%);" data-1330p="" data-1350p="transform: translate(-12.25%,-3%)" data-1370p="transform: translate(-25%,0%)" data-1390p="transform: translate(-37.25%,-3%)" data-1410p="transform: translate(-48%,-6%)" data-1430p="" data-1450p="transform: translate(-48%,-10%)" data-1490p="" data-1500p="transform: translate(0%,-10%)" data-1550p="transform: translate(0%,-6%);" data-1580p="" data-1600p="transform: translate(-12.25%,-3%)" data-1620p="transform: translate(-25%,0%)" data-1640p="transform: translate(-37.25%,-3%)" data-1660p="transform: translate(-48%,-6%)" data-1680p="" data-1700p="transform: translate(-48%,-10%)" data-1740p="" data-1750p="transform: translate(0%,-10%)" data-1800p="transform: translate(0%,-6%);" data-1830p="" data-1850p="transform: translate(-12.25%,-3%)" data-1870p="transform: translate(-25%,0%)" data-1890p="transform: translate(-37.25%,-3%)" data-1910p="transform: translate(-48%,-6%)" data-1930p="" data-1950p="transform: translate(-48%,-10%)" data-1990p="" data-2000p="transform: translate(0%,-10%)" data-2050p="transform: translate(0%,-6%);" data-2080p="" data-2100p="transform: translate(-12.25%,-3%)" data-2120p="transform: translate(-25%,0%)" data-2140p="transform: translate(-37.25%,-3%)" data-2160p="transform: translate(-48%,-6%)" data-2180p="" data-2200p="transform: translate(-48%,-10%)" style="transform: translate(-2.02528%, -5.50401%);">
+
+                    </div>
+                    <div class="planet skrollable skrollable-between" id="p1" data-0="transform: translate(0%,75%);" data-50p="transform: translate(0%,116.96%);" data-80p="" data-100p="transform: translate(-48%,157.1%);" data-120p="transform: translate(-100%,197.24%);" data-140p="transform: translate(-148%,157.24%);" data-160p="transform: translate(-200%,116.96%);" data-180p="" data-200p="transform: translate(-200%,75%);" data-220p="transform: translate(-200%,75%); dispaly:none;" style="width: 29%; transform: translate(-7.93579%, 123.596%);">
+
+                    <img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/1.png" width="100%" height="100%">
+                    </div>
+                    <div id="comet" class="deselements skrollable skrollable-between" data-0="transform:  translate(-120%,-180%) rotate(35deg); display:block;" data-100p="" data-120p="transform:  translate(-80%,125%) rotate(40deg);" data-140p="transform: translate(-48%,248%) rotate(40deg);" data-160p="transform:  translate(-20%,375%) rotate(40deg);" data-180p="transform:  translate(10%,500%) rotate(40deg);" data-200p="transform:  translate(40%,625%) rotate(40deg);" data-240p="transform:  translate(100%,875%) rotate(40deg);" data-260p="transform:  translate(140%,1000%) rotate(40deg);" data-280p="transform:  translate(180%,1125%) rotate(40deg); " data-300p="transform:  translate(140%,1000%) rotate(40deg); display:none;" style="transform: translate(-120%, -180%) rotate(35deg); display: block;">
+                    <img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/comet.png" width="100%">
+                    </div>
+                    <section id="initiatives" class="events skrollable skrollable-between" data-0="display:none;" data-120p="display:block;" style="display: none;">
+                    <div style="height: 100%; transform: scale(0, 0); display: none;" data-0="transform:scale(0,0); display:none;" data-120p="transform:scale(0,0); display:block;" data-140p="transform:scale(0.5,0.5);" data-160p="transform:scale(1,1);" data-200p="" data-330p="" data-350p="transform:scale(0.5,0.5);" data-370p="transform:scale(0,0); display:none;" class="skrollable skrollable-between">
+                    <div class="hevents">
+                    <h1>...</h1>
+                    </div>
+                    <div class="evePara">
+                    <p>
+                      We are back with yet another season of SAMVID — the techno-cultural college fest of Shri Shankaracharya Technical Campus, Bhilai. A nationwide fest which is recognized as one of the most magnificent events ever happened in Chhattisgarh State, assimilating many technical, cultural and management events into one holistic event, attracting a mass of nearly 25,000 students from all major colleges of Chhattisgarh and other states in vicinity. Empowering latent talents and putting one’s caliber at test on a national platform, it encompasses the wide and diverse spectra of events which will aid the nourishment of one’s forte. We cordially invite you to celebrate this festival of knowledge, joy and progress with us. 
+
+SAMVID pertains to the divine consciousness. It holds true to its name & focuses on awakening our dormant consciousness of talents.
+                    </p>
+                   
+                    <div id="ideatebut">
+                     <a href="http://samvid.org.in/register">
+                    <div class="iparabut">
+                    Register For The Event
+                    </div>
+                    </a>
+                    </div>
+                    
+                    </div>
+                    </div>
+                    </section>
+                    <div id="warship" class="deselements skrollable skrollable-before" data-200p=" top:-22%; right:-12%;" data-230p=" top:-2%; right:1%;" data-260p=" top:18%; right:14%;" data-290p=" top:37%; right:27%;" data-320p=" top:56%; right:40%;" data-350p=" top:75%; right:53%;" data-380p=" top:94%; right:66%;" data-410p=" top:103%; right:79%;" data-440p=" top:122%; right:92%;" data-470p=" top:141%; right:105%;" style="top: -22%; right: -12%;">
+                    <div id="warshipt">
+                    <img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/warship.png" width="100%">
+                    </div>
+                    </div>
+
+                    <div class="planet skrollable skrollable-between" id="p2" data-50p="transform: translate(294.82%,116.96%);" data-80p="" data-100p="transform: translate(251.72%,157.1%);" data-120p="transform: translate(208.62%,197.24%);" data-140p="transform: translate(165.61%,157.24%);" data-160p="transform: translate(122.41%,116.96%);" data-180p="" data-200p="transform: translate(122.41%,75%);" data-220p="" data-240p="" data-250p="transform: translate(-48%,75%);" data-300p="transform: translate(-48%,116.96%);" data-330p="" data-350p="transform: translate(-62.25%,157.1%)" data-370p="transform: translate(-75%,197.24%)" data-390p="transform: translate(-87.25%,157.24%)" data-410p="transform: translate(-100%,116.96%)" data-430p="" data-450p="transform: translate(-100%,75%)" style="transform: translate(287.694%, 123.596%);">
+                    <img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/7.png" width="100%" height="100%">
+                    </div>
+                    <section id="ideate" class="events skrollable skrollable-between" data-0="display:none;" data-370p=" display:block;" style="display: none;">
+                    <div style="height: 100%; transform: scale(0, 0); display: none;" data-0="transform:scale(0,0); display:none;" data-370p="transform:scale(0,0); display:block;" data-390p="transform:scale(0.5,0.5);" data-410p="transform:scale(1,1);" data-450p="" data-580p="" data-600p="transform:scale(0.5,0.5);" data-620p="transform:scale(0,0); display:none;" class="skrollable skrollable-between">
+                    <div class="hevents">
+                    <h1>IDEATE</h1>
+                    </div>
+                    <div class="evePara">
+                    <p>The sole motto of Ideate is to discover the best ideas and innovations from across the nation that would reform and revolutionize the present day scenario in India. One single idea has the potential to become the harbinger of change and a crusader for a cause in the coming days. Techfest invites all ruminators to bring in their ideas and act to reform the existing techniques to make this world a better place to live in.
+                    </p>
+                   
+                    <div id="ideatebut">
+                     <a href="hhttp://samvid.org.in/register">
+                    <div class="iparabut">
+                    Register For The Event
+                    </div>
+                    </a>
+                    </div>
+                    
+                    </div>
+                    </div>
+                    
+                    </section>
+                    <div id="astronaut" class="deselements skrollable skrollable-before" data-500p="transform:translate(90%,+85%);" data-530p="transform:translate(0%,0%);" data-580p="transform:translate(-210%,-165%);" data-630p="transform:translate(-420%,-325%);" data-680p="transform:translate(-630%,-485%);" data-700p="transform:translate(-725%,-572.5%);" data-730p="transform:translate(-820%,-645%);" data-830p="transform:translate(-955%,-750%);" data-930p="transform:translate(-1200%,-850%);" data-1130p="transform:translate(-1450%,-1000%);" data-1300p="transform:translate(-1600%,-1200%);" style="transform: translate(90%, 85%);">
+                    <div id="astronautr" data-500p="transform:rotateZ(0deg);" data-530p="transform:rotateZ(30deg);" data-580p="transform:rotateZ(90deg);" data-680p="transform:rotateZ(150deg);" data-730p="transform:rotateZ(200deg);" data-830p="transform:rotateZ(250deg);" data-930p="transform:rotateZ(300deg);" data-1130p="transform:rotateZ(350deg);" data-1300p="transform:rotateZ(350deg);" class="skrollable skrollable-before" style="transform: rotateZ(0deg);">
+                    <img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/astronaut.png" width="100%">
+                    </div>
+                    </div>
+                    <div id="astronaut" data-450p="transform:translate(90%,85%);" class="skrollable skrollable-before" style="transform: translate(90%, 85%);">
+                    <div id="astronautr">
+                    <img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/astronaut.png" width="100%">
+                    </div>
+                    </div>
+                     <div class="planet skrollable skrollable-before" id="p3" data-250p="transform: translate(294.82%,75%);" data-300p="transform: translate(294.82%,116.96%);" data-330p="" data-350p="transform: translate(251.72%,157.1%);" data-370p="transform: translate(208.62%,197.24%);" data-390p="transform: translate(165.61%,157.24%);" data-410p="transform: translate(122.41%,116.96%);" data-430p="" data-450p="transform: translate(122.41%,75%);" data-470p="" data-490p="" data-500p="transform: translate(-48%,75%);" data-550p="transform: translate(-48%,116.96%);" data-580p="" data-600p="transform: translate(-62.25%,157.1%)" data-620p="transform: translate(-75%,197.24%)" data-640p="transform: translate(-87.25%,157.24%)" data-660p="transform: translate(-100%,116.96%)" data-680p="" data-700p="transform: translate(-100%,75%)" style="transform: translate(294.82%, 75%);">
+
+                    <img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/8.png" width="100%" height="100%">
+                    </div>
+                    <section id="competitions" class="events skrollable skrollable-between" data-0="display:none;" data-620p="display:block;" style="display: none;"> 
+                    <div style="height: 100%; transform: scale(0, 0); display: none;" data-0="transform:scale(0,0); display:none;" data-620p="transform:scale(0,0); display:block;" data-640p="transform:scale(0.5,0.5);" data-660p="transform:scale(1,1);" data-700p="" data-830p="" data-850p="transform:scale(0.5,0.5);" data-870p="transform:scale(0,0); display:none;" class="skrollable skrollable-between">
+                    <div class="hevents">
+                    <h1>COMPETITIONS</h1>
+                    </div>
+                    <div class="evePara">
+                    <p>Technology never ceases to amaze us with its prodigious involvement in our daily life. In this era of technological advancement and spirit of leaping forward in every way, we invite you to melt your brains in the web of competitions which seek the knack of acting upon mean materials and circuits. Get ready and think hard to aim for extremely mind bending competitions of this edition.
+                    </p>
+                    
+                    
+                    <div id="ideatebut">
+                    <a href="http://samvid.org.in/register">
+                    <div class="iparabut">
+                   Register For The Event
+                    </div>
+                     </a>
+                    </div>
+                   
+                    </div>
+                    </div>
+                    </section>
+                     <div id="asteroid" class="deselements skrollable skrollable-between" data-0p="top:-15%; left:95%; width:15%; display:none;" data-700p="top:-15%; left:95%; width:15%; display:block;" data-800p="" data-820p="top:-5%; left:85%; width:12%; display:block;" data-840p="top:5%; left:65%; width:15%; display:block;" data-860p="top:15%; left:45%; width:17%; display:block;" data-880p="top:25%; left:25%; width:18.5%; display:block;" data-900p="top:35%; left:5%; width:20%; display:block;" data-920p="top:45%; left:-20%; width:21.5%; display:block;" data-930p="top:55%; left:-40%; width:21.5%; display:block;" style="top: -15%; left: 95%; width: 15%; display: none;">
+                    <img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/asteroid.gif" width="100%" height="100%">
+                    </div>
+                    <div class="planet skrollable skrollable-between" id="p4" style="width: 58%; transform: translate(248%, 75%);" data-0="transform: translate(248%,75%);" data-500p="" data-550p="transform: translate(294.82%,116.96%);" data-580p="" data-600p="transform: translate(251.72%,157.1%);" data-620p="transform: translate(208.62%,197.24%);" data-640p="transform: translate(165.61%,157.24%);" data-660p="transform: translate(122.41%,116.96%);" data-680p="" data-700p="transform: translate(122.41%,75%);" data-740p="" data-750p="transform: translate(-48%,75%);" data-800p="transform: translate(-48%,116.96%);" data-830p="" data-850p="transform: translate(-62.25%,157.1%)" data-870p="transform: translate(-75%,197.24%)" data-890p="transform: translate(-87.25%,157.24%)" data-910p="transform: translate(-100%,116.96%)" data-930p="" data-950p="transform: translate(-100%,75%)">
+
+                    <img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/4.png" width="100%" height="100%">
+                    </div>
+                    <section id="workshops" class="events skrollable skrollable-between" data-0=" display:none;" data-870p="display:block;" style="display: none;">
+                    <div style="height: 100%; transform: scale(0, 0); display: none;" data-0="transform:scale(0,0); display:none;" data-870p="transform:scale(0,0); display:block;" data-890p="transform:scale(0.5,0.5);" data-910p="transform:scale(1,1);" data-950p="" data-1080p="" data-1100p="transform:scale(0.5,0.5);" data-1120p="transform:scale(0,0); display:none;" class="skrollable skrollable-between">
+                    <div class="hevents">
+                    <h1>WORKSHOPS</h1>
+                    </div>
+                    <div class="evePara">
+                    <p>Have you always been inquisitive of the cutting edge technology and want an enriching experience while learning them? Or do you want to interact with the students sharing common interest and dive deep into the subject. If yes, then workshops at samvid bring you face to face with the latest technology while providing you valuable hands-on experience under the guidance of renowned professionals.</p>
+                    
+                    <div id="ideatebut">
+                    <a href="http://samvid.org.in/register">
+                    <div class="iparabut">
+                   Register For The Event
+                    </div>
+                    </a>
+                    </div>
+                    </div>
+                    </div>
+                    </section>
+                    
+                    <div class="planet skrollable skrollable-between" id="p5" style="width: 58%; transform: translate(294.82%, 75%);" data-0p="transform: translate(294.82%,75%);" data-750p="" data-800p="transform: translate(294.82%,116.96%);" data-830p="" data-850p="transform: translate(251.72%,157.1%);" data-870p="transform: translate(208.62%,197.24%);" data-890p="transform: translate(165.61%,157.24%);" data-910p="transform: translate(122.41%,116.96%);" data-930p="" data-950p="transform: translate(122.41%,75%);" data-990p="" data-1000p="transform: translate(-48%,75%);" data-1050p="transform: translate(-48%,116.96%);" data-1080p="" data-1100p="transform: translate(-62.25%,157.1%)" data-1120p="transform: translate(-75%,197.24%)" data-1140p="transform: translate(-87.25%,157.24%)" data-1160p="transform: translate(-100%,116.96%)" data-1180p="" data-1200p="transform: translate(-100%,75%)">
+                    <img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/6.png" width="100%" height="100%">
+                    </div>
+                    <section id="twmun" class="events skrollable skrollable-between" data-0="display:none;" data-1120p="display:block;" style="display: none;">
+                    <div style="height: 100%; transform: scale(0, 0); display: none;" data-0="transform:scale(0,0); display:none;" data-1120p="transform:scale(0,0); display:block;" data-1140p="transform:scale(0.5,0.5);" data-1160p="transform:scale(1,1);" data-1200p="" data-1330p="" data-1350p="transform:scale(0.5,0.5);" data-1370p="transform:scale(0,0); display:none;" class="skrollable skrollable-between">
+                    <div class="hevents">
+                    <h1 style="font-size:3vw" ;="">samvid WORLD MUN</h1>
+                    </div>
+                    <div class="evePara">
+                    <p>We should acknowledge and celebrate what youth can do to build a safer world and strengthen our efforts to include young people in policies and decision-making processes that benefit their futures and ours. We bring forth 3 days of unforgettable experience for you with stimulating discussions, gripping agendas, exciting committees and intense, unadulterated MUNning.
+                    </p>
+                    
+                   
+                    <div id="ideatebut">
+                     <a href="http://samvid.org.in/register">
+                    <div class="iparabut">
+                   Register For The Event
+                    </div>
+                    </a>
+                    </div>
+                    
+                    </div>
+                    </div>
+                    </section>
+                    <div id="enterpreneur" class="deselements skrollable skrollable-before" data-1200p="transform:translate(100%,0%) scale(1,1)" data-1350p="transform:translate(40%,0%) scale(1,1)" data-1390p="transform:translate(-400%,0%) scale(1.1,1.1)" data-1420p="transform:translate(-700%,0%) scale(1.2,1.2)" data-1450p="transform:translate(-1050%,0%) scale(1.4,1.4)" style="transform: translate(100%, 0%) scale(1, 1);">
+                    <img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/enterpreneur.png" width="100%">
+                    </div>
+                     <div class="planet skrollable skrollable-between" id="p6" style="width: 58%; transform: translate(294.82%, 75%);" data-0p="transform: translate(294.82%,75%);" data-1000p="" data-1050p="transform: translate(294.82%,116.96%);" data-1080p="" data-1100p="transform: translate(251.72%,157.1%);" data-1120p="transform: translate(208.62%,197.24%);" data-1140p="transform: translate(165.61%,157.24%);" data-1160p="transform: translate(122.41%,116.96%);" data-1180p="" data-1200p="transform: translate(122.41%,75%);" data-1240p="" data-1250p="transform: translate(-48%,75%);" data-1300p="transform: translate(-48%,116.96%);" data-1330p="" data-1350p="transform: translate(-62.25%,157.1%)" data-1370p="transform: translate(-75%,197.24%)" data-1390p="transform: translate(-87.25%,157.24%)" data-1410p="transform: translate(-100%,116.96%)" data-1430p="" data-1450p="transform: translate(-100%,75%)">
+                        <img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/5.png" width="100%" height="100%">
+                    </div>
+                    <section id="lectures" class="events skrollable skrollable-between" data-0="display:none;" data-1370p="display:block;" style="display: none;">
+                    <div style="height: 100%; transform: scale(0, 0); display: none;" data-0="transform:scale(0,0); display:none;" data-1370p="transform:scale(0,0); display:block;" data-1390p="transform:scale(0.5,0.5);" data-1410p="transform:scale(1,1);" data-1450p="" data-1580p="" data-1600p="transform:scale(0.5,0.5);" data-1620p="transform:scale(0,0); display:none;" class="skrollable skrollable-between">
+                    <div class="hevents">
+                    <h1>LECTURES</h1>
+                    </div>
+                    <div class="evePara">
+                    <p>Eminent personalities, exotic topics and enlightening insights - a segment dedicated to spreading excellence. Lecture series aims at helping millions of young minds realize their dreams by giving them a platform where they can interact with ingenious personalities from all over the world and have an experience of a lifetime.
+                    </p>
+                    
+                   
+                    <div id="ideatebut">
+                     <a href="http://samvid.org.in/register">
+                    <div class="iparabut">
+                   Register For The Event
+                    </div>
+                    </a>
+                    </div>
+                    </div>
+                    </div>
+                    </section>
+
+                      <div id="comet2" class="deselements skrollable skrollable-between" data-0p="transform:  translate(-50%,-400%) rotate(-220deg); display:block;" data-1500="" data-1550p="transform:  translate(0%,-150%) rotate(-220deg);" data-1700p="transform:  translate(-500%,1000%) rotate(-220deg);" style="transform: translate(-50%, -400%) rotate(-220deg); display: block;">
+                    <img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/comet.png" width="100%">
+                    </div>
+                    <div class="planet skrollable skrollable-between" id="p7" style="width: 58%; transform: translate(248%, 75%);" data-0="transform: translate(248%,75%);" data-1250p="" data-1300p="transform: translate(294.82%,116.96%);" data-1330p="" data-1350p="transform: translate(251.72%,157.1%);" data-1370p="transform: translate(208.62%,197.24%);" data-1390p="transform: translate(165.61%,157.24%);" data-1410p="transform: translate(122.41%,116.96%);" data-1430p="" data-1450p="transform: translate(122.41%,75%);" data-1490p="" data-1500p="transform: translate(-48%,75%);" data-1550p="transform: translate(-48%,116.96%);" data-1580p="" data-1600p="transform: translate(-62.25%,157.1%)" data-1620p="transform: translate(-75%,197.24%)" data-1640p="transform: translate(-87.25%,157.24%)" data-1660p="transform: translate(-100%,116.96%)" data-1680p="" data-1700p="transform: translate(-100%,75%)">
+                    <img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/7.png" width="100%" height="100%">
+                    </div>
+                    <section id="exhibitions" class="events skrollable skrollable-between" data-0=" display:none;" data-1620p=" display:block;" style="display: none;">
+                    <div style="height: 100%; transform: scale(0, 0); display: none;" data-0="transform:scale(0,0); display:none;" data-1620p="transform:scale(0,0); display:block;" data-1640p="transform:scale(0.5,0.5);" data-1660p="transform:scale(1,1);" data-1700p="" data-1830p="" data-1850p="transform:scale(0.5,0.5);" data-1870p="transform:scale(0,0); display:none;" class="skrollable skrollable-between">
+                    <div class="hevents">
+                    <h1>EXHIBITIONS</h1>
+                    </div>
+                    <div class="evePara">
+                    <p>From showcasing the technologies of the times of ancient civilizations to the modern out of the box innovations, Exhibitions at samvid plays host to the technological avant-garde, satisfying the inquisitive vigor of spiraling queues and massive hordes every year. This segment offers a sneak peek into the future that is guaranteed to take your breath away.</p>
+                    
+                    
+                    <div id="ideatebut">
+                    <a href="http://samvid.org.in/register">
+                    <div class="iparabut">
+                   Register For The Event
+                    </div>
+                    </a>
+                    </div>
+                    
+                    </div>
+                    </div>
+                    </section>
+                    <div class="planet skrollable skrollable-between" id="p8" style="width: 58%; transform: translate(248%, 75%);" data-0="transform: translate(248%,75%);" data-1500p="" data-1550p="transform: translate(294.82%,116.96%);" data-1580p="" data-1600p="transform: translate(251.72%,157.1%);" data-1620p="transform: translate(208.62%,197.24%);" data-1640p="transform: translate(165.61%,157.24%);" data-1660p="transform: translate(122.41%,116.96%);" data-1680p="" data-1700p="transform: translate(122.41%,75%);" data-1740p="" data-1750p="transform: translate(-48%,75%);" data-1800p="transform: translate(-48%,116.96%);" data-1830p="" data-1850p="transform: translate(-62.25%,157.1%)" data-1870p="transform: translate(-75%,197.24%)" data-1890p="transform: translate(-87.25%,157.24%)" data-1910p="transform: translate(-100%,116.96%)" data-1930p="" data-1950p="transform: translate(-100%,75%)">
+                    <img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/8.png" width="100%" height="100%">
+                    </div>
+                    <section id="techonoholix" class="events skrollable skrollable-between" data-0="display:none;" data-1870p="display:block;" style="display: none;">
+                        <div style="height: 100%; transform: scale(0, 0); display: none;" data-0="transform:scale(0,0); display:none;" data-1870p="transform:scale(0,0); display:block;" data-1890p="transform:scale(0.5,0.5);" data-1910p="transform:scale(1,1);" data-1950p="" data-2080p="" data-2100p="transform:scale(0.5,0.5);" data-2120p="transform:scale(0,0); display:none;" class="skrollable skrollable-between">
+                    <div class="hevents">
+                    <h1>TECHNOHOLIX</h1>
+                    </div>
+                    <div class="evePara">
+                    <p>As the day reaches its climax, the lavish open air theatre of IIT Bombay is filled with thousands of people witnessing the aura of the captivating shows by international artists from across the globe enthralling them, filling their veins with adrenaline and leaving a look of awe on their faces.
+                     </p>
+                    
+                    
+                    <div id="ideatebut">
+                    <a href="http://samvid.org.in/register">
+                    <div class="iparabut">
+                    Register For The Event
+                    </div>
+                     </a>
+                    </div>
+                   
+                    </div>
+                    </div>
+                    </section>
+                    <div class="planet skrollable skrollable-between" id="p9" style="width: 58%; transform: translate(248%, 75%);" data-0="transform: translate(248%,75%);" data-1750p="" data-1800p="transform: translate(294.82%,116.96%);" data-1830p="" data-1850p="transform: translate(251.72%,157.1%);" data-1870p="transform: translate(208.62%,197.24%);" data-1890p="transform: translate(165.61%,157.24%);" data-1910p="transform: translate(122.41%,116.96%);" data-1930p="" data-1950p="transform: translate(122.41%,75%);" data-1990p="" data-2000p="transform: translate(-48%,75%);" data-2050p="transform: translate(-48%,116.96%);" data-2080p="" data-2100p="transform: translate(-62.25%,157.1%)" data-2120p="transform: translate(-75%,197.24%)" data-2140p="transform: translate(-87.25%,157.24%)" data-2160p="transform: translate(-100%,116.96%)" data-2180p="" data-2200p="transform: translate(-100%,75%)">
+                    <img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/4.png" width="100%" height="100%">
+                    </div>
+                    <section id="ozone" class="events skrollable skrollable-between" data-0="display:none;" data-2120p="display:block;" style="display: none;">
+                      <div style="height: 100%; transform: scale(0, 0); display: none;" data-0="transform:scale(0,0); display:none;" data-2120p="transform:scale(0,0); display:block;" data-2140p="transform:scale(0.5,0.5);" data-2160p="transform:scale(1,1);" data-2200p="" class="skrollable skrollable-between">
+                    <div class="hevents">
+                    <h1>OZONE</h1>
+                    </div>
+                    <div class="evePara">
+                    <p>Experience the exhilaration in Ozone with spine tingling events. Get a joyful and thrilling experience seeing the professionals perform breathtaking shows. Encounter an alternate reality, rushing through at breakneck speeds and extra dimensional experience. Ozone has something for one and all.
+                    </p>
+                    
+                    <div id="ideatebut">
+                    <a href="http://samvid.org.in/register">
+                    <div class="iparabut">
+                   Register For The Event
+                    </div>
+                    </a>
+                    </div>
+                    
+                    </div>
+                    </div></section>
+                    
+                    <div id="satellite" class="deselements skrollable skrollable-before" data-2200p="transform:translate(-330%,150%);" data-2225p="transform:translate(-350%,0%);" data-2250p="transform:translate(-330%,-150%);" data-2275p="transform:translate(-268%,-300%);" data-2300p="transform:translate(-100.4%,-450%);" data-2325p="transform:translate(123%,-550%);" style="transform: translate(-330%, 150%);">
+                    <div id="satelliter" data-2200p="transform:rotateZ(-10deg);" data-2225p="transform:rotateZ(-23deg);" data-2250p="transform:rotateZ(-15deg);" data-2275p="transform:rotateZ(2deg);" data-2300p="transform:rotateZ(21deg);" data-2325p="transform:rotateZ(39deg);" class="skrollable skrollable-before" style="transform: rotateZ(-10deg);">
+                    <img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/satellite.png" width="100%">
+                    </div>
+                    </div>
+                    <div class="planet skrollable skrollable-between" id="p10" style="width: 58%; transform: translate(248%, 75%);" data-0="transform: translate(248%,75%);" data-2000p="" data-2050p="transform: translate(294.82%,116.96%);" data-2080p="" data-2100p="transform: translate(251.72%,157.1%);" data-2120p="transform: translate(208.62%,197.24%);" data-2140p="transform: translate(165.61%,157.24%);" data-2160p="transform: translate(122.41%,116.96%);" data-2180p="" data-2200p="transform: translate(122.41%,75%);">
+                    <img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/6.png" width="100%" height="100%">
+                    </div>
+
+
+
+                    <div class="ufo skrollable skrollable-between" data-0="transform: translate(48%,700%);" data-50p="transform: translate(48%,600%);" data-80p="" data-100p="transform: translate(260%,500%);" data-120p="transform: translate(480%,400%);" data-140p="transform: translate(700%,500%);" data-160p="transform: translate(848%,600%);" data-180p="" data-200p="transform: translate(848%,700%);" data-240p="" data-250p="transform: translate(48%,700%);" data-300p="transform: translate(48%,600%);" data-330p="" data-350p="transform: translate(260%,500%);" data-370p="transform: translate(480%,400%);" data-390p="transform: translate(700%,500%);" data-410p="transform: translate(848%,600%);" data-430p="" data-450p="transform: translate(848%,700%);" data-490p="" data-500p="transform: translate(48%,700%);" data-550p="transform: translate(48%,600%);" data-580p="" data-600p="transform: translate(260%,500%);" data-620p="transform: translate(480%,400%);" data-640p="transform: translate(700%,500%);" data-660p="transform: translate(848%,600%);" data-680p="" data-700p="transform: translate(848%,700%);" data-740p="" data-750p="transform: translate(48%,700%);" data-800p="transform: translate(48%,600%);" data-830p="" data-850p="transform: translate(260%,500%);" data-870p="transform: translate(480%,400%);" data-890p="transform: translate(700%,500%);" data-910p="transform: translate(848%,600%);" data-930p="" data-950p="transform: translate(848%,700%);" data-990p="" data-1000p="transform: translate(48%,700%);" data-1050p="transform: translate(48%,600%);" data-1080p="" data-1100p="transform: translate(260%,500%);" data-1120p="transform: translate(480%,400%);" data-1140p="transform: translate(700%,500%);" data-1160p="transform: translate(848%,600%);" data-1180p="" data-1200p="transform: translate(848%,700%);" data-1240p="" data-1250p="transform: translate(48%,700%);" data-1300p="transform: translate(48%,600%);" data-1330p="" data-1350p="transform: translate(260%,500%);" data-1370p="transform: translate(480%,400%);" data-1390p="transform: translate(700%,500%);" data-1410p="transform: translate(848%,600%);" data-1430p="" data-1450p="transform: translate(848%,700%);" data-1490p="" data-1500p="transform: translate(48%,700%);" data-1550p="transform: translate(48%,600%);" data-1580p="" data-1600p="transform: translate(260%,500%);" data-1620p="transform: translate(480%,400%);" data-1640p="transform: translate(700%,500%);" data-1660p="transform: translate(848%,600%);" data-1680p="" data-1700p="transform: translate(848%,700%);" data-1740p="" data-1750p="transform: translate(48%,700%);" data-1800p="transform: translate(48%,600%);" data-1830p="" data-1850p="transform: translate(260%,500%);" data-1870p="transform: translate(480%,400%);" data-1890p="transform: translate(700%,500%);" data-1910p="transform: translate(848%,600%);" data-1930p="" data-1950p="transform: translate(848%,700%);" data-1990p="" data-2000p="transform: translate(48%,700%);" data-2050p="transform: translate(48%,600%);" data-2080p="" data-2100p="transform: translate(260%,500%);" data-2120p="transform: translate(480%,400%);" data-2140p="transform: translate(700%,500%);" data-2160p="transform: translate(848%,600%);" data-2180p="" data-2200p="transform: translate(848%,700%);" style="transform: translate(83.0498%, 583.467%);">
+                        <div class="rotate skrollable skrollable-between" data-0="transform:rotateZ(11deg);" data-25p="transform:rotateZ(0deg);" data-50p="transform:rotateZ(0deg);" data-80p="transform:rotateZ(15deg);" data-100p="transform:rotateZ(17.5deg);" data-120p="transform:rotateZ(20deg);" data-140p="transform:rotateZ(17.5deg);" data-160p="transform:rotateZ(15deg);" data-180p="transform:rotateZ(0deg);" data-200p="transform:rotateZ(-11deg);" data-240p="" data-250p="transform:rotateZ(11deg);" data-275p="transform:rotateZ(0deg);" data-300p="transform:rotateZ(0deg);" data-330p="transform:rotateZ(15deg);" data-350p="transform:rotateZ(17.5deg);" data-370p="transform:rotateZ(20deg);" data-390p="transform:rotateZ(17.5deg);" data-410p="transform:rotateZ(15deg);" data-430p="transform:rotateZ(0deg);" data-450p="transform:rotateZ(-11deg);" data-490p="" data-500p="transform:rotateZ(11deg);" data-525p="transform:rotateZ(0deg);" data-550p="transform:rotateZ(0deg);" data-580p="transform:rotateZ(15deg);" data-600p="transform:rotateZ(17.5deg);" data-620p="transform:rotateZ(20deg);" data-640p="transform:rotateZ(17.5deg);" data-660p="transform:rotateZ(15deg);" data-680p="transform:rotateZ(0deg);" data-700p="transform:rotateZ(-11deg);" data-740p="" data-750p="transform:rotateZ(11deg);" data-775p="transform:rotateZ(0deg);" data-800p="transform:rotateZ(0deg);" data-830p="transform:rotateZ(15deg);" data-850p="transform:rotateZ(17.5deg);" data-870p="transform:rotateZ(20deg);" data-890p="transform:rotateZ(17.5deg);" data-910p="transform:rotateZ(15deg);" data-930p="transform:rotateZ(0deg);" data-950p="transform:rotateZ(-11deg);" data-990p="" data-1000p="transform:rotateZ(11deg);" data-1025p="transform:rotateZ(0deg);" data-1050p="transform:rotateZ(0deg);" data-1080p="transform:rotateZ(15deg);" data-1020p="transform:rotateZ(20deg);" data-1040p="transform:rotateZ(17.5deg);" data-1060p="transform:rotateZ(15deg);" data-1200p="transform:rotateZ(-11deg);" data-1240p="" data-1250p="transform:rotateZ(11deg);" data-1275p="transform:rotateZ(0deg);" data-1300p="transform:rotateZ(0deg);" data-1330p="transform:rotateZ(15deg);" data-1350p="transform:rotateZ(17.5deg);" data-1370p="transform:rotateZ(20deg);" data-1390p="transform:rotateZ(17.5deg);" data-1410p="transform:rotateZ(15deg);" data-1430p="transform:rotateZ(0deg);" data-1450p="transform:rotateZ(-11deg);" data-1490p="" data-1500p="transform:rotateZ(11deg);" data-1525p="transform:rotateZ(0deg);" data-1550p="transform:rotateZ(0deg);" data-1580p="transform:rotateZ(15deg);" data-1600p="transform:rotateZ(17.5deg);" data-1620p="transform:rotateZ(20deg);" data-1640p="transform:rotateZ(17.5deg);" data-1660p="transform:rotateZ(15deg);" data-1680p="transform:rotateZ(0deg);" data-1700p="transform:rotateZ(-11deg);" data-1740p="" data-1750p="transform:rotateZ(11deg);" data-1775p="transform:rotateZ(0deg);" data-1800p="transform:rotateZ(0deg);" data-1830p="transform:rotateZ(15deg);" data-1850p="transform:rotateZ(17.5deg);" data-1870p="transform:rotateZ(20deg);" data-1890p="transform:rotateZ(17.5deg);" data-1910p="transform:rotateZ(15deg);" data-1930p="transform:rotateZ(0deg);" data-1950p="transform:rotateZ(-11deg);" data-1990p="" data-2000p="transform:rotateZ(11deg);" data-2025p="transform:rotateZ(0deg);" data-2050p="transform:rotateZ(0deg);" data-2080p="transform:rotateZ(15deg);" data-2100p="transform:rotateZ(17.5deg);" data-2120p="transform:rotateZ(20deg);" data-2140p="transform:rotateZ(17.5deg);" data-2160p="transform:rotateZ(15deg);" data-2180p="transform:rotateZ(0deg);" data-2200p="transform:rotateZ(-11deg);" style="transform: rotateZ(15.4133deg);">
+                             <img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/ufo.png" width="100%" height="100%">
+                        </div>
+                    </div>         
+                </div>
+
+
+<svg class="arrows skrollable skrollable-after" data-0p="display:block;s" data-10p="display:none;" style="display: none;">
+<path class="a1" d="M0 0 L30 32 L60 0"></path>
+<path class="a2" d="M0 20 L30 52 L60 20"></path>
+<path class="a3" d="M0 40 L30 72 L60 40"></path>
+</svg>
+             
+                <div class="icons">
+                <li><a href="https://www.facebook.com/techfest.iitb/?ref=aymt_homepage_panel" target="_blank"><img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/fb.svg"></a></li>
+                <li><a href="https://twitter.com/Techfest_IITB" target="_blank"><img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/twitter.svg"></a></li>
+                <li><a href="https://www.youtube.com/user/techfestiitbombay" target="_blank"><img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/youtube.svg"></a></li>
+                <li><a href="https://www.instagram.com/techfest_iitb/?hl=en" target="_blank"><img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/insta.svg"></a></li>
+                <li><a href="https://www.linkedin.com/company/techfest" target="_blank"><img src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/linkedin.svg"></a></li>
+                </div>
+        <script src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/skrollr.min.js.download"></script>
+        
+        <script src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/jquery.ticker.js.download" type="text/javascript"></script>
+        <script type="text/javascript" src="./Techfest 2016-17,IIT Bombay _ Asia&#39;s largest Science and Technology festival __files/skrollr.menu.js.download"></script>
+        <script type="text/javascript">
+        var x = screen.width;
+        var y = window.innerWidth;
+        var z = window.devicePixelRatio;
+        var phyWidth = x;
+
+        if(phyWidth > 450){
+
+        setTimeout(function() {
+        var s = skrollr.init({  
+            
+        });
+
+
+        skrollr.menu.init(s, {
+            change: function(hash, top) {
+                }
+            });
+        }, 500);
+         $(window).load(function(){
+                $('#loader').delay(2000).fadeOut();
+                
+        }); 
+    }
+    else{
+         $('#mob_text').append("Use your device in landscape mode for better experience");
+         $(window).load(function(){
+                $('#loader').delay(400).fadeOut();
+
+        });  
+        $('#slides').css("display","none");
+        $('.topnav').css("display","none");
+        $('.mobile').show();
+    }
+
+        $(window).resize(function(){
+        var x = screen.width;
+        var y = window.innerWidth;
+        var z = window.devicePixelRatio;
+        var w = $(window).width();
+        var phyWidth = w;
+        console.log(x);
+        console.log(y);
+        console.log(z);
+        console.log(w);
+        console.log(phyWidth);
+        if(phyWidth > 450){
+
+        setTimeout(function() {
+        var s = skrollr.init({  
+            
+        });
+
+
+        skrollr.menu.init(s, {
+            change: function(hash, top) {
+                console.log(hash, top);
+                }
+            });
+        }, 500);
+        $('#slides').css("display","block");
+        $('.topnav').css("display","block");
+        $('.mobile').hide();
+         $(window).load(function(){
+                /*$('#loader').delay(350).fadeOut();*/
+        });
+            
+    }
+    else{
+         $('#mob_text').append("Use your device in landscape mode for better experience");
+         $(window).load(function(){
+               /* $('#loader').delay(400).fadeOut();*/
+
+        });  
+        $('#slides').css("display","none");
+        $('.topnav').css("display","none");
+        $('.bottomnav').css("transform","translate(0,0)");
+        $('.mobile').show();
+    }
+    });
+    </script>
+    <script type="text/javascript">
+        $(function () {
+  $('#js-news').ticker();
+  });
+    </script>
+  
+    
+
+</body></html>
